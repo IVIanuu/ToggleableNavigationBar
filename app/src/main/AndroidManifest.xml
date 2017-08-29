@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ivianuu.toggleablenavigationbar">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="Toggleable NavigationBar"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <!-- Meta data -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="52" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Toggleable NavigationBar." />
+
+    </application>
+</manifest>
